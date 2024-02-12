@@ -1,0 +1,61 @@
+[10:11 AM, 2/12/2024] Bright(Devs Advocate)🧬🧬: @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .genDiv{
+        display: block;
+    }
+}
+[10:17 AM, 2/12/2024] Bright(Devs Advocate)🧬🧬: *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.genDiv {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 50px 5%;
+
+}
+
+.genDiv div{
+    margin-bottom: 20px;
+    background-color: brown;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* $small-One : 320px;
+$small-Two : 480px;
+$medium-One : 481px ;
+$medium-Two : 768px;
+$large-One : 1025px;
+$large-Two : 1200px; */
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .genDiv{
+        display: block;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 769px) {
+    .genDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .genDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;k
+    }
+    
+}
